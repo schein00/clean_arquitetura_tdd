@@ -1,0 +1,25 @@
+{
+  "name": "clean_arquitetura_tdd",
+  "version": "1.0.0",
+  "description": "Repositorio para estudos de clean arquiteture e TDD",
+  "main": "index.js",
+  "dependencies": {
+    "@types/express": "^4.17.12",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schein00/clean_arquitetura_tdd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schein00/clean_arquitetura_tdd/issues"
+  },
+  "homepage": "https://github.com/schein00/clean_arquitetura_tdd#readme"
+}
